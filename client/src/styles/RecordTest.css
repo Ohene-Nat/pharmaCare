@@ -1,0 +1,35 @@
+.record-test-page .test-form-card {
+  max-width: 640px;
+}
+
+.test-form .form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.customer-dropdown {
+  background: var(--sidebar-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 4px;
+}
+
+.dropdown-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.dropdown-item:hover {
+  background: rgba(108, 92, 231, 0.15);
+  color: var(--text-primary);
+}
+
+.dropdown-item strong {
+  color: var(--text-primary);
+}

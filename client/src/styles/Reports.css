@@ -1,0 +1,66 @@
+.report-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.date-picker label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.date-picker input[type="date"] {
+  padding: 8px 12px;
+  background: var(--input-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.date-picker input[type="date"]:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.daily-report {
+  margin-bottom: 24px;
+}
+
+.daily-report h2,
+.weekly-report h2 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.report-summary {
+  margin-bottom: 16px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.report-summary strong {
+  color: var(--primary-light);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  .report-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date-picker {
+    flex-wrap: wrap;
+  }
+}
