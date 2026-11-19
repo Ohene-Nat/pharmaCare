@@ -1,0 +1,40 @@
+.settings-page .role-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.role-badge.admin {
+  background: rgba(108, 92, 231, 0.2);
+  color: var(--primary-light);
+}
+
+.role-badge.staff {
+  background: rgba(0, 184, 148, 0.2);
+  color: var(--secondary);
+}
+
+.role-badge.superadmin {
+  background: rgba(253, 203, 110, 0.2);
+  color: var(--accent);
+}
+
+.action-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.action-badge.added {
+  background: rgba(0, 184, 148, 0.2);
+  color: var(--secondary);
+}
+
+.action-badge.deleted {
+  background: rgba(214, 48, 49, 0.2);
+  color: var(--danger);
+}
