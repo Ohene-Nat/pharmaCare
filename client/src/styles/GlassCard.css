@@ -1,0 +1,12 @@
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  box-shadow: var(--glass-shadow);
+  padding: 24px;
+  transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.glass-card:hover {
+  border-color: color-mix(in srgb, var(--primary) 28%, var(--glass-border));
+}
